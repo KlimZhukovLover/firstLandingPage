@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>penis</title>
+    <title>Bakery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,7 +21,7 @@
     </header>
     <nav>
         
-        <ul>
+        <ul class="menu">
             
             <li>  <a href="#">O НАС</a> </li>
             <li>  <a href="#">НОВОСТИ</a> </li>
@@ -24,14 +32,45 @@
 
     </nav>
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section class="section-about">
+            <div class="section-about__block">
+                <div class="section-about__border">
+                    <h1 class="section-about__title">Специальный заказ</h1>
+                    <p class="section-about__text">Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание форм развития. Товарищи! консультация с широким активом требуют от нас анализа новых предложений.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section-desc">
+            <div class="section-desc__icon-box">
+                <img src="../src/icons/01-Иконка.svg" alt="">
+                <img src="../src/icons/02-Иконка.svg" alt="">
+                <img src="../src/icons/03-Иконка.svg" alt="">
+            </div>
+            <div class="section-desc__text-box">
+                <h2 class="section-desc__title">
+                    Выпечка - <span class="red">это</span> вкусно
+                </h2>
+                <p class="section-desc__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eaque laborum, dolorum, unde esse eligendi temporibus a voluptatum laudantium culpa numquam ad, libero dicta atque quasi recusandae? Asperiores, dolorem blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eaque laborum, dolorum, unde esse eligendi temporibus a voluptatum laudantium culpa numquam ad, libero dicta atque quasi recusandae? Asperiores, dolorem blanditiis.</p>
+            </div>
+        </section>
+        <section class="section-map ">
+            <h3 class="section-map__title">ЗАКАЗАТЬ</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17420.82246839141!2d24.16639999469879!3d56.92133625881113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eed13dcbc560f5%3A0xbc5958c1894a3d2c!2sKarsti%20%C4%8Cebureki!5e0!3m2!1slv!2slv!4v1681541014851!5m2!1slv!2slv" width="900" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </main>
     <footer>
         <nav>
-
+            <div class="line"></div>
+            <ul class="menu">
+            
+                <li>  <a href="#">O НАС</a> </li>
+                <li>  <a href="#">НОВОСТИ</a> </li>
+                <li>  <a href="#">МЕНЮ</a> </li>
+                <li>  <a href="#">КОНТАКТЫ</a> </li>
+    
+            </ul> 
         </nav>
     </footer>
+
 </body>
 </html>
